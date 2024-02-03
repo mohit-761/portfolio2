@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.items-align {
+  padding: 0 9rem;
+}
+
+.responsive-ness{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+.headings {
+  text-transform: uppercase;
+  color: #80bcbd;
+}
+
+html,
+body {
+  font-family: sans-serif;
+}
+.resumeNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #365486;
+}
+
+.resumeTitle {
+  font-size: 23px;
+  line-height: 30px;
+  color: #dcf2f1;
+}
+
+.address, .address a {
+  color: #80bcbd;
+  text-decoration: none;
+}
+
+.address a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.image-text {
+  margin: 1.5rem;
+}
+
+.image-text img {
+  background-color: #dcf2f1;
+  border-radius: 100%;
+  width: 150px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #365486;
+}
+
+.summary {
+  padding: 15px 0;
+}
+
+.skills .skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skill-list li{
+  margin-right: 60px;
+}
+
+.educational-div{
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.educational-div div{
+  margin-bottom: 10px;
+}
+
+.educational-div .last-div{
+  margin-bottom: 0px;
+}
+
+.educational-div div h4{
+  text-align: start;
+}
+
+
+.footer .contact ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+
+
+
